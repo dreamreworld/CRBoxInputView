@@ -1,4 +1,4 @@
-<a id="Header_Start"></a> ![CRBoxInputViewHeadImg.png](/ReadmeResources/HeadImg.png "CRBoxInputViewHeadImg.png")
+<a id="Header_Start"></a> ![CRBoxInputViewHeadImg.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/HeadImg.png "CRBoxInputViewHeadImg.png")
 [![CI Status](https://img.shields.io/travis/CRAnimation/CRBoxInputView.svg?style=flat)](https://travis-ci.org/CRAnimation/CRBoxInputView)
 [![Version](https://img.shields.io/cocoapods/v/CRBoxInputView.svg?style=flat)](https://cocoapods.org/pods/CRBoxInputView)
 [![License](https://img.shields.io/cocoapods/l/CRBoxInputView.svg?style=flat)](https://cocoapods.org/pods/CRBoxInputView)
@@ -38,24 +38,24 @@ pod 'CRBoxInputView', '1.1.3'
 ## 示列
 
 下载源代码后，可以从Example目录中执行 `pod install`，然后运行Demo。
-![iPhone 8 Copy 2.png](/ReadmeResources/ScreenShoot2.png "iPhone 8 Copy 2.png")
+![iPhone 8 Copy 2.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/ScreenShoot2.png "iPhone 8 Copy 2.png")
 
 
 ## 快速指南
 | 类型  | 示例图片 |
 | :-------------: | :-------------: |
-| [Base](#Anchor_Base) | ![Normal.png](/ReadmeResources/1Normal.png "Normal.png")  |
-| [Placeholder](#Anchor_Placeholder) | ![Placeholder.png](/ReadmeResources/Add1_Placeholder0.png "Placeholder.png")  |
-| [CustomBox](#Anchor_CustomBox)  | ![CustomBox.png](/ReadmeResources/2CustomBox.png "CustomBox.png")  |
-| [Line](#Anchor_Line)  | ![Line.png](/ReadmeResources/3Line.png "Line.png")  |
-| [SecretSymbol](#Anchor_SecretSymbol)  | ![SecretSymbol.png](/ReadmeResources/4SecretSymbol.png "SecretSymbol.png")  |
-| [SecretImage](#Anchor_SecretImage)  | ![SecretImage.png](/ReadmeResources/5SecretImage.png "SecretImage.png")  |
-| [SecretView](#Anchor_SecretView)  | ![SecretView.png](/ReadmeResources/6SecretView.png "SecretView.png") |
+| [Base](#Anchor_Base) | ![Normal.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/1Normal.png "Normal.png")  |
+| [Placeholder](#Anchor_Placeholder) | ![Placeholder.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/Add1_Placeholder0.png "Placeholder.png")  |
+| [CustomBox](#Anchor_CustomBox)  | ![CustomBox.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/2CustomBox.png "CustomBox.png")  |
+| [Line](#Anchor_Line)  | ![Line.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/3Line.png "Line.png")  |
+| [SecretSymbol](#Anchor_SecretSymbol)  | ![SecretSymbol.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/4SecretSymbol.png "SecretSymbol.png")  |
+| [SecretImage](#Anchor_SecretImage)  | ![SecretImage.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/5SecretImage.png "SecretImage.png")  |
+| [SecretView](#Anchor_SecretView)  | ![SecretView.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/6SecretView.png "SecretView.png") |
 
 ## 使用说明
 
 ### <a id="Anchor_Base"></a>Base
-![Normal.png](/ReadmeResources/1Normal.png "Normal.png")
+![Normal.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/1Normal.png "Normal.png")
 ``` objc
 CRBoxInputView *boxInputView = [[CRBoxInputView alloc] initWithFrame:CGRectMake(0, 0, 200, 50)];
 boxInputView.codeLength = 4;// 不设置时，默认4
@@ -80,7 +80,7 @@ NSLog(@"textValue:%@", boxInputView.textValue);
 <br/>
 
 ### <a id="Anchor_Placeholder"></a>Placeholder
-![Placeholder.png](/ReadmeResources/Add1_Placeholder0.png "Placeholder.png")
+![Placeholder.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/Add1_Placeholder0.png "Placeholder.png")
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
 cellProperty.cellPlaceholderTextColor = [UIColor colorWithRed:114/255.0 green:116/255.0 blue:124/255.0 alpha:0.3]; //可选
@@ -98,7 +98,7 @@ boxInputView.customCellProperty = cellProperty;
 <br/>
 
 ### <a id="Anchor_CustomBox"></a>CustomBox
-![CustomBox.png](/ReadmeResources/2CustomBox.png "CustomBox.png")
+![CustomBox.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/2CustomBox.png "CustomBox.png")
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
 cellProperty.cellBgColorNormal = color_FFECEC;
@@ -127,7 +127,7 @@ boxInputView.customCellProperty = cellProperty;
 <br/>
 
 ### <a id="Anchor_Line"></a>Line
-![Line.png](/ReadmeResources/3Line.png "Line.png")
+![Line.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/3Line.png "Line.png")
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
 cellProperty.showLine = YES; //必需
@@ -152,7 +152,7 @@ boxInputView.customCellProperty = cellProperty;
 <br/>
 
 ### <a id="Anchor_SecretSymbol"></a>SecretSymbol
-![SecretSymbol.png](/ReadmeResources/4SecretSymbol.png "SecretSymbol.png")
+![SecretSymbol.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/4SecretSymbol.png "SecretSymbol.png")
 
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
@@ -168,7 +168,7 @@ boxInputView.customCellProperty = cellProperty;
 <br/>
 
 ### <a id="Anchor_SecretImage"></a>SecretImage
-![SecretImage.png](/ReadmeResources/5SecretImage.png "SecretImage.png")
+![SecretImage.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/5SecretImage.png "SecretImage.png")
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
 cellProperty.securityType = CRBoxSecurityCustomViewType; //必需
@@ -191,7 +191,7 @@ boxInputView.customCellProperty = cellProperty;
 <br/>
 
 ### <a id="Anchor_SecretView"></a>SecretView
-![SecretView.png](/ReadmeResources/6SecretView.png "SecretView.png")
+![SecretView.png](https://github.com/CRAnimation/CRBoxInputView/blob/master/ReadmeResources/6SecretView.png "SecretView.png")
 ``` objc
 CRBoxInputCellProperty *cellProperty = [CRBoxInputCellProperty new];
 cellProperty.securityType = CRBoxSecurityCustomViewType; //必需
